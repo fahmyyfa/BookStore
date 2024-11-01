@@ -1,5 +1,6 @@
 package org.example;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
     /**
@@ -14,6 +15,8 @@ import java.util.Scanner;
          */
         public static void main(String[] args) {
             System.out.println("a");
+            System.out.println("b");
+            System.out.println("c");
 
             Scanner scanner = new Scanner(System.in);
             BookStore bookStore = new BookStore();
